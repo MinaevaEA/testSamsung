@@ -4,7 +4,16 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Evgenia/AndroidStudioProjects/Pizza/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Users/Evgenia/AndroidStudioProjects/Pizza/app/src/main/res/layout/fragment_home.xml" value="0.15416666666666667" />
+        <entry key="..\:/Users/Evgenia/AndroidStudioProjects/Pizza/app/src/main/res/layout/fragment_category_pizza.xml" value="0.20871794871794871" />
+        <entry key="..\:/Users/Evgenia/AndroidStudioProjects/Pizza/app/src/main/res/layout/fragment_dashboard.xml" value="0.13958333333333334" />
+        <entry key="..\:/Users/Evgenia/AndroidStudioProjects/Pizza/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Users/Evgenia/AndroidStudioProjects/Pizza/app/src/main/res/layout/fragment_notifications.xml" value="0.13958333333333334" />
+        <entry key="..\:/Users/Evgenia/AndroidStudioProjects/Pizza/app/src/main/res/layout/fragment_pizza_list.xml" value="0.264" />
+        <entry key="..\:/Users/Evgenia/AndroidStudioProjects/Pizza/app/src/main/res/layout/holder_pizza.xml" value="0.6" />
+        <entry key="..\:/Users/Evgenia/AndroidStudioProjects/Pizza/app/src/main/res/layout/item_category.xml" value="0.4" />
+        <entry key="..\:/Users/Evgenia/AndroidStudioProjects/Pizza/app/src/main/res/layout/item_page.xml" value="0.16510416666666666" />
+        <entry key="..\:/Users/Evgenia/AndroidStudioProjects/Pizza/app/src/main/res/layout/item_pizza.xml" value="0.4" />
+        <entry key="..\:/Users/Evgenia/AndroidStudioProjects/Pizza/app/src/main/res/layout/list_pizza.xml" value="0.1015625" />
       </map>
     </option>
   </component>
