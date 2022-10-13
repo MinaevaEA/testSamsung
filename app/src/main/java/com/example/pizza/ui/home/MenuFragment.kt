@@ -33,6 +33,7 @@ class MenuFragment : Fragment() {
         binding.recyclerView.adapter = adapterMenu
         adapterCategory = AdapterCategory(dataSet.getCategoryList())
         binding.recyclerViewCategory.layoutManager = LinearLayoutManager(requireContext())
+        (binding.recyclerViewCategory.layoutManager as LinearLayoutManager).orientation = LinearLayoutManager.HORIZONTAL
         binding.recyclerViewCategory.adapter = adapterCategory
         binding.viewPager2.adapter = adapter
     }
