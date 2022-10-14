@@ -1,13 +1,24 @@
 package com.example.pizza.ui.home
 
+import android.annotation.SuppressLint
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.pizza.DataCategory
 import com.example.pizza.databinding.ItemCategoryBinding
 
-class AdapterCategory(private val dataCategory: List<DataCategory>) :
+class AdapterCategory :
     RecyclerView.Adapter<AdapterCategory.MyViewHolder>() {
+    private val dataSetCategory = ArrayList<DataCategory>()
+
+    @SuppressLint("NotifyDataSetChanged")
+    fun setDataCategory(newList: List<DataCategory>) {
+        dataSetCategory.clear()
+        dataSetCategory.addAll(newList)
+        Log.d("1", "setData")
+        notifyDataSetChanged()
+    }
 
     class MyViewHolder(private val binding: ItemCategoryBinding) :
         RecyclerView.ViewHolder(binding.root) {
@@ -23,10 +34,10 @@ class AdapterCategory(private val dataCategory: List<DataCategory>) :
     }
 
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
-        holder.bind(dataCategory[position])
+        holder.bind(dataSetCategory[position])
     }
 
-    override fun getItemCount() = dataCategory.size
+    override fun getItemCount() = dataSetCategory.size
 
 }
 

@@ -54,4 +54,7 @@ dependencies {
     implementation "androidx.viewpager2:viewpager2:1.0.0-alpha01"
     //noinspection GradleCompatible
     implementation "com.android.support:appcompat-v7:23.1.1"
+    implementation 'com.google.code.gson:gson:2.8.7'
+    implementation 'com.squareup.retrofit2:retrofit:2.8.1'
+    implementation 'com.squareup.retrofit2:converter-gson:2.8.1'
 }
